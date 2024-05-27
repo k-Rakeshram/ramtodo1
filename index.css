@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(225, 106, 106), rgb(179, 179, 87), rgb(182, 117, 128), rgb(206, 131, 206), rgb(160, 201, 160), rgb(155, 98, 98));
+    padding: 20px;
+}
+
+@media(min-width:580px) {
+    #todobg {
+        color: rgb(15, 15, 15);
+        padding: 20px;
+        border-radius: 20px;
+        border-style: solid 0px;
+        background-color: #dfb6c3;
+        background-image: linear-gradient(red green white);
+        font-family: "Charlie Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+    }
+
+    ul {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .todoitems {
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+        color: rgb(22, 22, 22);
+        font-weight: bold;
+        margin: 10px;
+        background-color: #f6f6f6;
+        border-color: #040D12;
+        border-style: solid;
+        border-width: 0px 0px 0px 10px;
+        padding: 10px 10px 10px 20px;
+        border-radius: 10px;
+
+    }
+
+    .todotask {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .inpbox {
+        width: 30px;
+        margin-right: 20px;
+        border-radius: 100%;
+    }
+
+    .todod1 {
+        width: 55vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+
+    }
+
+    .todod2 {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .lbltext {
+
+        container-type: inline-size;
+        Word-wrap: break-word;
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+
+    .timetext {
+        color: red;
+        padding-top: 5px;
+    }
+
+    .tododel {
+        border-style: none;
+        background-color: red;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 10px;
+        color: white;
+
+    }
+
+    .todobottomsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todoinpbtn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #todoinp {
+        border-width: 0px;
+        margin-right: 0px;
+        width: 30vw;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 18px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .addbtn {
+        font-size: 22px;
+        height: 42px;
+        border-radius: 0px 10px 10px 0px;
+        border-style: none;
+        margin: 10px 10px 10px 0px;
+        color: white;
+        background-color: #363062;
+        font-weight: bold;
+        padding: 5px 12px;
+
+    }
+
+    .savebtn {
+        font-size: 22px;
+        height: 42px;
+        border-radius: 0px 10px 10px 0px;
+        border-style: none;
+        margin: 10px 10px 10px 0px;
+        color: white;
+        background-color: #363062;
+        font-weight: bold;
+        padding: 5px 12px;
+
+    }
+
+    .strike {
+        text-decoration: line-through;
+    }
+
+}
+@media(max-width:581px) {
+    #todobg {
+        color: rgb(15, 15, 15);
+        padding: 20px;
+        border-radius: 20px;
+        border-style: solid 0px;
+        background-color: #dfb6c3;
+        font-family: "Charlie Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+    }
+
+    ul {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+/*ekkada*/
+    .todoitems {
+        display: flex;
+        flex-direction:column;
+        width:45vw;
+        color: rgb(22, 22, 22);
+        font-weight: bold;
+        margin: 10px;
+        background-color: #f6f6f6;
+        border-color: #040D12;
+        border-style: solid;
+        border-width: 0px 0px 0px 10px;
+        padding: 10px 10px 10px 20px;
+        border-radius: 10px;
+
+    }
+
+    .todotask {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .inpbox {
+        width: 25px;
+        margin-right: 20px;
+    }
+
+    .todod1 {
+        width:45vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+
+    }
+
+    .todod2 {
+        align-items: left;
+
+    }
+
+    .lbltext {
+
+        container-type: inline-size;
+        Word-wrap: break-word;
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+
+    .timetext {
+        color: red;
+        font-size:12px;
+        padding-top: 5px;
+        padding-bottom:10px;
+    }
+
+    .tododel {
+        border-style: none;
+        background-color: red;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 5px;
+        color: white;
+
+    }
+
+    .todobottomsec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .todoinpbtn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #todoinp {
+        border-width: 0px;
+        margin-right: 0px;
+        width: 30vw;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 13px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .addbtn {
+        font-size:18px;
+        height: 42px;
+        border-radius: 0px 10px 10px 0px;
+        border-style: none;
+        margin: 10px 10px 10px 0px;
+        color: white;
+        background-color: #363062;
+        font-weight: bold;
+        padding: 5px 12px;
+
+    }
+
+    .savebtn {
+        font-size: 18px;
+        height: 42px;
+        border-radius: 0px 10px 10px 0px;
+        border-style: none;
+        margin: 10px 10px 10px 0px;
+        color: white;
+        background-color: #363062;
+        font-weight: bold;
+        padding: 5px 12px;
+
+    }
+
+    .strike {
+        text-decoration: line-through;
+    }
+
+}
